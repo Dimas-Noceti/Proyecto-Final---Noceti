@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1300px) {
+    .navbar-brand {
+        width: 20%;
+    }
+}
+
+@media only screen and (max-width: 1083px) {
+    .navbar-brand {
+        font-size: 50px !important;
+    }
+
+    .textos-comidas {
+        margin: 0 0 40px 0px !important;
+    }
+
+    .textos-comidas:hover {
+        transform: scale(1) !important;
+    }
+
+    .section-recetas {
+        font-size: 15px !important;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .main-novedades {
+        height: 2200px !important;
+    }
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1000px) {
+    .div-main {
+        height: 400px !important;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .titulo-recetas {
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+    }
+
+    .div-main {
+        height: 2000px !important;
+    }
+
+    .main-nosotros {
+        height: 5700px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .div-main {
+        height: 1500px !important;
+    }
+}
