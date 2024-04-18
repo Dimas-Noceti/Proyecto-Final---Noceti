@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Merriweather", serif;
+}
+
+.navbar {
+  background-color: rgb(190, 229, 191);
+}
+.navbar .navbar-brand {
+  font-size: 80px;
+  color: rgb(63, 91, 59) !important;
+}
+.navbar .navbar-nav a {
+  font-size: 25px;
+  color: rgb(63, 91, 59) !important;
+}
+.navbar .navbar-nav a:hover {
+  color: white !important;
+}
+
+.main-index {
+  background-image: url(../multimedia/food-2879265_1920.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.main-index .titulo-recetas {
+  color: rgb(63, 91, 59);
+  font-size: 60px;
+  padding-top: 90px;
+}
+.main-index .div-main {
+  height: 800px;
+}
+.main-index .div-main .cards {
+  background: none;
+  border: none;
+}
+.main-index .div-main .cards .textos-comidas {
+  background-color: rgb(190, 229, 191);
+  transition: all 0.2s;
+}
+.main-index .div-main .cards .textos-comidas a {
+  color: rgb(63, 91, 59);
+  display: flex;
+  font-size: 30px;
+  background-color: transparent;
+  border: none;
+}
+.main-index .div-main .cards .textos-comidas a:link {
+  background-color: transparent;
+  box-shadow: none;
+}
+.main-index .div-main .cards .textos-comidas:hover {
+  background-color: rgb(190, 229, 191);
+  transform: scale(1.12);
+}
+.main-index .div-main .cards .textos-comidas:hover a {
+  color: white;
+}
+
+.section-recetas {
+  background-color: beige;
+  height: 500px;
+  font-size: 20px;
+}
+.section-recetas .section-overflow {
+  overflow: hidden;
+}
+
+footer {
+  height: 200px;
+  border: 15px solid rgb(190, 229, 191);
+  background-color: rgb(190, 229, 191);
+  font-size: 30px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+footer .redes a {
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+  letter-spacing: 20px;
+  text-shadow: 1px 1px 2px black;
+}
+
+/*# sourceMappingURL=style.css.map */

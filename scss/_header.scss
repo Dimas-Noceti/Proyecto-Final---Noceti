@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Merriweather", serif
+}
+
+
+$colorHeader: rgb(63, 91, 59);
+$backgroundNav: rgb(190, 229, 191);
+$backgroundMains: beige;
+
+
+
+
+
+.navbar{
+    background-color: $backgroundNav;
+        .navbar-brand{
+            font-size: 80px;
+            color: $colorHeader !important;
+            }
+
+            .navbar-nav a{
+            font-size: 25px;
+            color: $colorHeader !important;
+            }
+
+            .navbar-nav a:hover{
+            color: white !important;
+        }
+}

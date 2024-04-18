@@ -1,0 +1,54 @@
+.main-index{
+    background-image: url(../multimedia/food-2879265_1920.jpg);
+    background-position: center;
+    background-size: cover;
+
+    .titulo-recetas{
+        color: $colorHeader;
+        font-size: 60px;
+        padding-top: 90px;
+    }
+
+    .div-main{
+        height: 800px;
+
+        .cards{
+            background: none;
+            border: none;
+            
+            .textos-comidas{
+                background-color: $backgroundNav;
+                transition: all 0.2s;
+                    
+                a{
+                    color: $colorHeader;
+                    display: flex;
+                    font-size: 30px;
+                    background-color: transparent;
+                    border: none;
+                }
+                a:link{
+                    background-color: transparent;
+                    box-shadow: none;
+                }
+            }
+            .textos-comidas:hover{
+                background-color: $backgroundNav;
+                transform: scale(1.12);
+
+                a{
+                    color: white
+                }
+            }
+        }
+    }
+}
+
+.section-recetas{
+    background-color: $backgroundMains;
+    height: 500px;
+    font-size: 20px;
+    .section-overflow{
+        overflow: hidden;
+    }
+}
