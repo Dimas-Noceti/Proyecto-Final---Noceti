@@ -133,5 +133,40 @@ footer .redes a {
     height: 1500px !important;
   }
 }
+.main-recetas {
+  background-color: beige;
+  height: 170vh;
+}
+.main-recetas .section-recetas {
+  min-height: 500px;
+}
+.main-recetas .section-recetas .galeria-recetas {
+  display: grid;
+  grid-template-columns: repeat(3, 250px);
+  grid-template-rows: 300px 300px;
+}
+.main-recetas .section-recetas .galeria-recetas .item {
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+}
+.main-recetas .section-recetas .galeria-recetas .item1 {
+  background-image: url(../multimedia/comida1.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item2 {
+  background-image: url(../multimedia/comida2.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item3 {
+  background-image: url(../multimedia/comida3.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item4 {
+  background-image: url(../multimedia/comida4.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item5 {
+  background-image: url(../multimedia/comida5.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item6 {
+  background-image: url(../multimedia/comida6.jpg);
+}
 
 /*# sourceMappingURL=style.css.map */
