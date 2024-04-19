@@ -5,7 +5,7 @@
         min-height: 500px;
         .galeria-recetas{
             display: grid;
-            grid-template-columns: repeat(3, 250px);
+            grid-template-columns: repeat(3, 275px);
             grid-template-rows: 300px 300px;
             .item{
                 background-size: cover;
@@ -19,4 +19,8 @@
             }
         }
     }
+}
+
+.height-carousel{
+    height: 600px;
 }

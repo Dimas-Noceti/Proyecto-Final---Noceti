@@ -87,6 +87,46 @@ footer .redes a {
   text-shadow: 1px 1px 2px black;
 }
 
+.main-recetas {
+  background-color: beige;
+  height: 170vh;
+}
+.main-recetas .section-recetas {
+  min-height: 500px;
+}
+.main-recetas .section-recetas .galeria-recetas {
+  display: grid;
+  grid-template-columns: repeat(3, 275px);
+  grid-template-rows: 300px 300px;
+}
+.main-recetas .section-recetas .galeria-recetas .item {
+  background-size: cover;
+  background-position: center;
+  margin: 5px;
+}
+.main-recetas .section-recetas .galeria-recetas .item1 {
+  background-image: url(../multimedia/comida1.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item2 {
+  background-image: url(../multimedia/comida2.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item3 {
+  background-image: url(../multimedia/comida3.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item4 {
+  background-image: url(../multimedia/comida4.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item5 {
+  background-image: url(../multimedia/comida5.jpg);
+}
+.main-recetas .section-recetas .galeria-recetas .item6 {
+  background-image: url(../multimedia/comida6.jpg);
+}
+
+.height-carousel {
+  height: 600px;
+}
+
 @media only screen and (max-width: 1300px) {
   .navbar-brand {
     width: 20%;
@@ -133,40 +173,46 @@ footer .redes a {
     height: 1500px !important;
   }
 }
-.main-recetas {
-  background-color: beige;
-  height: 170vh;
+@media only screen and (max-width: 1579px) {
+  .main-recetas {
+    height: 300vh !important;
+  }
+  .main-recetas .section-recetas {
+    text-align: center;
+  }
+  .main-recetas .section-recetas .recetas-pais {
+    width: 100%;
+  }
+  .main-recetas .section-recetas .galeria-recetas {
+    margin: 0 auto;
+  }
 }
-.main-recetas .section-recetas {
-  min-height: 500px;
+@media only screen and (max-width: 880px) {
+  .main-recetas {
+    height: 380vh !important;
+  }
+  .main-recetas .galeria-recetas {
+    margin: 0 auto;
+    grid-template-columns: 320px !important;
+    grid-template-rows: 300px 300px 300px 300px 300px !important;
+  }
 }
-.main-recetas .section-recetas .galeria-recetas {
-  display: grid;
-  grid-template-columns: repeat(3, 250px);
-  grid-template-rows: 300px 300px;
+@media only screen and (max-width: 991px) {
+  .mainnovedades {
+    height: 2200px;
+  }
 }
-.main-recetas .section-recetas .galeria-recetas .item {
-  background-size: cover;
-  background-position: center;
-  margin: 5px;
-}
-.main-recetas .section-recetas .galeria-recetas .item1 {
-  background-image: url(../multimedia/comida1.jpg);
-}
-.main-recetas .section-recetas .galeria-recetas .item2 {
-  background-image: url(../multimedia/comida2.jpg);
-}
-.main-recetas .section-recetas .galeria-recetas .item3 {
-  background-image: url(../multimedia/comida3.jpg);
-}
-.main-recetas .section-recetas .galeria-recetas .item4 {
-  background-image: url(../multimedia/comida4.jpg);
-}
-.main-recetas .section-recetas .galeria-recetas .item5 {
-  background-image: url(../multimedia/comida5.jpg);
-}
-.main-recetas .section-recetas .galeria-recetas .item6 {
-  background-image: url(../multimedia/comida6.jpg);
+@media only screen and (max-width: 768px) {
+  .titulorecetas {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .divmain {
+    height: 2000px;
+  }
+  .mainnosotros {
+    height: 5700px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

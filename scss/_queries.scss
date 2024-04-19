@@ -54,3 +54,47 @@
         height: 1500px !important;
     }
 }
+
+@media only screen and (max-width: 1579px){
+    .main-recetas{
+        height: 300vh !important;
+        .section-recetas{
+            text-align: center;
+            .recetas-pais{
+                width: 100%;
+            }
+            .galeria-recetas{
+                margin: 0 auto;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 880px){
+    .main-recetas{
+        height: 380vh !important;
+        .galeria-recetas{
+            margin: 0 auto;
+            grid-template-columns: 320px !important;
+            grid-template-rows: 300px 300px 300px 300px 300px !important;
+        }
+    }
+}
+@media only screen and (max-width: 991px){
+    .mainnovedades{
+        height: 2200px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .titulorecetas{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .divmain{
+        height: 2000px;
+    }
+    .mainnosotros{
+        height: 5700px;
+    }
+}
