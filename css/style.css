@@ -6,21 +6,6 @@
   font-family: "Merriweather", serif;
 }
 
-.navbar {
-  background-color: rgb(190, 229, 191);
-}
-.navbar .navbar-brand {
-  font-size: 80px;
-  color: rgb(63, 91, 59) !important;
-}
-.navbar .navbar-nav a {
-  font-size: 25px;
-  color: rgb(63, 91, 59) !important;
-}
-.navbar .navbar-nav a:hover {
-  color: white !important;
-}
-
 .main-index {
   background-image: url(../multimedia/food-2879265_1920.jpg);
   background-position: center;
@@ -68,6 +53,21 @@
 }
 .section-recetas .section-overflow {
   overflow: hidden;
+}
+
+.navbar {
+  background-color: rgb(190, 229, 191);
+}
+.navbar .navbar-brand {
+  font-size: 80px;
+  color: rgb(63, 91, 59) !important;
+}
+.navbar .navbar-nav a {
+  font-size: 25px;
+  color: rgb(63, 91, 59) !important;
+}
+.navbar .navbar-nav a:hover {
+  color: white !important;
 }
 
 footer {
@@ -125,6 +125,11 @@ footer .redes a {
 
 .height-carousel {
   height: 600px;
+}
+
+.main-novedades {
+  background-color: beige;
+  height: 1400px;
 }
 
 @media only screen and (max-width: 1300px) {
