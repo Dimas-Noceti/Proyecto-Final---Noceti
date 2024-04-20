@@ -1,9 +1,8 @@
 .main-nosotros{
-    height: 1500px;
     background-color: beige;
+    .cards-nosotros{
+        border: 1px black solid;
+        background-color: transparent !important;
+    }
 }
 
-.cards-nosotros{
-    border: none;
-    background-color: transparent !important;
-}

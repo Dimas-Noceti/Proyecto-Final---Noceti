@@ -19,30 +19,30 @@
             .textos-comidas{
                 background-color: $backgroundNav;
                 transition: all 0.2s;
-                    
+                &:hover{
+                    background-color: $backgroundNav;
+                    transform: scale(1.12);
+                    a{
+                        color: white
+                    }
+                }
+                
                 a{
                     color: $colorHeader;
                     display: flex;
                     font-size: 30px;
                     background-color: transparent;
                     border: none;
-                }
-                a:link{
-                    background-color: transparent;
-                    box-shadow: none;
-                }
-            }
-            .textos-comidas:hover{
-                background-color: $backgroundNav;
-                transform: scale(1.12);
-
-                a{
-                    color: white
+                    &:link{
+                        background-color: transparent;
+                        box-shadow: none;
+                    }
                 }
             }
         }
     }
 }
+
 
 .section-recetas{
     background-color: $backgroundMains;

@@ -3,14 +3,13 @@
         .navbar-brand{
             font-size: 80px;
             color: $colorHeader !important;
-            }
+        }
 
             .navbar-nav a{
             font-size: 25px;
             color: $colorHeader !important;
+                &:hover{
+                    color: white !important;
             }
-
-            .navbar-nav a:hover{
-            color: white !important;
         }
 }
