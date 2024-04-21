@@ -152,12 +152,12 @@ footer .redes a {
 .main-contactanos .numero2 {
   width: 416px;
 }
-.main-contactanos .contactanoslogos {
+.main-contactanos .contactanos-logos {
   text-decoration: none;
   font-size: 80px;
   text-align: center;
 }
-.main-contactanos .contactanoslogos a {
+.main-contactanos .contactanos-logos a {
   color: rgb(63, 91, 59);
   text-decoration: none;
   font-size: 80px;
@@ -193,6 +193,14 @@ footer .redes a {
 @media only screen and (max-width: 1300px) {
   .navbar-brand {
     width: 20%;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .main-contactanos {
+    height: 170vh;
+  }
+  .main-contactanos .contactanos-div {
+    text-align: center;
   }
 }
 @media only screen and (max-width: 1083px) {
@@ -248,6 +256,37 @@ footer .redes a {
   }
   .div-main {
     height: 2100px !important;
+  }
+}
+@media only screen and (max-width: 596px) {
+  .main-contactanos {
+    height: 150vh;
+  }
+  .main-contactanos #nombre {
+    width: 49% !important;
+  }
+  .main-contactanos #apellido {
+    width: 49%;
+  }
+  .main-contactanos .correo {
+    width: 100% !important;
+  }
+  .main-contactanos .numero1 {
+    width: 12% !important;
+  }
+  .main-contactanos .numero2 {
+    width: 87% !important;
+  }
+  .main-contactanos .mensaje {
+    display: none;
+  }
+}
+@media only screen and (max-width: 531px) {
+  .main-contactanos .numero1 {
+    width: 15% !important;
+  }
+  .main-contactanos .numero2 {
+    width: 80% !important;
   }
 }
 @media only screen and (max-width: 500px) {
