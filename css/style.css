@@ -57,6 +57,9 @@
 
 .navbar {
   background-color: rgb(190, 229, 191);
+  position: sticky;
+  top: 0;
+  z-index: 5;
 }
 .navbar .navbar-brand {
   font-size: 80px;

@@ -1,6 +1,8 @@
 .navbar{
     background-color: $backgroundNav;
-    
+    position: sticky;
+    top: 0;
+    z-index: 5;
         .navbar-brand{
             font-size: 80px;
             color: $colorHeader !important;
