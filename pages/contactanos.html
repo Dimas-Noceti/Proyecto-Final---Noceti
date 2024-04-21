@@ -1,72 +1,108 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/style.css">
     <title>NicerFood</title>
 </head>
+
 <body>
     <!-- Navbar empieza -->
     <nav class="navbar navbar-expand-xl navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">NicerFood</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav d-flex justify-content-end w-100 p-3">
-                <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
-                <a class="nav-link" href="./recetas.html">Recetas</a>
-                <a class="nav-link" href="./novedades.html">Novedades</a>
-                <a class="nav-link" href="./sobrenosotros.html">Sobre nosotros</a>
-                <a class="nav-link" href="#">Contactanos</a>
-            </div>
+                <div class="navbar-nav d-flex justify-content-end w-100 p-3">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                    <a class="nav-link" href="./recetas.html">Recetas</a>
+                    <a class="nav-link" href="./novedades.html">Novedades</a>
+                    <a class="nav-link" href="./sobrenosotros.html">Sobre nosotros</a>
+                    <a class="nav-link" href="#">Contactanos</a>
+                </div>
             </div>
         </div>
-        </nav>
+    </nav>
     <!-- Navbar termina -->
-        <!-- Form contactanos empieza -->
-        <div class="container-fluid main-contactanos">
-            <div class="row">
-                <section class="d-flex justify-content-between">
-                    <div class="p-5 col-md-6">
-                        <h3 class="p-2">Contactanos!</h3>
-                        <form class="p-2">
-                            <input class="p-2" type="text" placeholder="Nombre" required>
-                            <input class="p-2" type="text" placeholder="Apeliido" required>
-                        </form>
-                        <form class="p-2">
-                            <input class="p-2 correo" type="email" placeholder="Correo electronico" required>
-                        </form>
-                        <form class="p-2">
-                            <input class="p-2 numero1" type="number" placeholder="+54" required>
-                            <input class="p-2 numero2" type="number" placeholder="Numero de telefono">
-                        </form>
-                        <form class="p-2">
-                            <textarea class="p-2" id="" cols="45" rows="10" placeholder="Dejanos un mensaje!"></textarea>
-                        </form>
-                    </div>
-                    <!-- Form contactanos termina --> 
-                    <div class="p-5 col-md-6">
-                        <h3>Tambien te dejamos nuestras redes para mayor comodidad!</h3>
-                        <div class="contactanoslogos">
-                            <a href="https://www.facebook.com/?locale=es_LA">
-                                <i class="fa-brands fa-facebook"></i>
-                            </a>
-                            <a
-                                href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179">
-                                <i class="fa-brands fa-instagram"></i>
-                            </a>
-                            <a href="https://twitter.com/i/flow/login">
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-                        </div>
-                    </div>
-                </section>
+    <!-- Form contactanos empieza -->
+    <div class="container-fluid main-contactanos">
+        <div class="row">
+            <div class="p-5 col-xl-6">
+                <h3 class="p-2">Contactanos!</h3>
+                <form class="p-2">
+                    <input class="p-2" type="text" placeholder="Nombre" required>
+                    <input class="p-2" type="text" placeholder="Apeliido" required>
+                </form>
+                <form class="p-2">
+                    <input class="p-2 correo" type="email" placeholder="Correo electronico" required>
+                </form>
+                <form class="p-2">
+                    <input class="p-2 numero1" type="number" placeholder="+54" required>
+                    <input class="p-2 numero2" type="number" placeholder="Numero de telefono">
+                </form>
+                <form class="p-2">
+                    <textarea class="p-2" id="" cols="45" rows="10" placeholder="Dejanos un mensaje!"></textarea>
+                </form>
+            </div>
+            <!-- Form contactanos termina -->
+            <div class="p-5 col-xl-6 text-center">
+                <h3>Tambien te dejamos nuestras redes para mayor comodidad!</h3>
+                <div class="contactanoslogos">
+                    <a href="https://www.facebook.com/?locale=es_LA">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a
+                        href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://twitter.com/i/flow/login">
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+                <div class="col-xl-12">
+                    <i class="fa-solid fa-map-pin p-4 d-flex justify-content-center" id="pindelmapa"></i>
+                    <h2 class="text-center">Encuentranos!</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96873.55944748194!2d-74.02756959910256!3d40.64534484701647!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24416947c2109%3A0x82765c7404007886!2sBrooklyn%2C%20Nueva%20York%2C%20EE.%20UU.!5e0!3m2!1ses-419!2sar!4v1710127343925!5m2!1ses-419!2sar"
+                        width="50%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+                </div>
+        </div>
+    </div>
+    <!-- Jumbotron (FOOTER) empieza -->
+    <footer>
+        <div class="pt-4 text-center w-100">
+            <h3>Todos los derechos reservados</h3>
+            <div class="redes">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F&hl=es-es&aa_click=8891933284028179" target="_blank">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/i/flow/login" target="_blank">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
             </div>
         </div>
+    </footer>
+    <!-- Jumbotron (FOOTER) termina -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
 </body>
 </html>

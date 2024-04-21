@@ -156,13 +156,17 @@ footer .redes a {
   text-decoration: none;
   font-size: 80px;
   text-align: center;
-  margin-top: 40px;
 }
 .main-contactanos .contactanoslogos a {
   color: rgb(63, 91, 59);
   text-decoration: none;
   font-size: 80px;
   letter-spacing: 20px;
+}
+
+.map {
+  position: relative;
+  left: 25%;
 }
 
 #pindelmapa {
