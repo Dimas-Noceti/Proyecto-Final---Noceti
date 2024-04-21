@@ -1,0 +1,1 @@
+Esta es mi pagina que consiste en una pagina de buqsqueda de recetas. Tenemos recomendaciones de recetas asi como tambien buscador y filtrados de recetas segun el pais. En mi pagina hice uso de las anidaciones, bucles y variables.
