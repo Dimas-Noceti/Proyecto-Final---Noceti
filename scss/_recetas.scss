@@ -1,17 +1,21 @@
 .main-recetas{
     background-color: $backgroundMains;
     height: 170vh;
+
     .section-recetas{
         min-height: 500px;
+
         .galeria-recetas{
             display: grid;
             grid-template-columns: repeat(3, 275px);
             grid-template-rows: 300px 300px;
+
             .item{
                 background-size: cover;
                 background-position: center;
                 margin: 5px;
             }
+            
             @for $incremento from 1 to 7{
                 .item#{$incremento}{
                     background-image: url(../multimedia/comida#{$incremento}.jpg);

@@ -1,5 +1,6 @@
 .navbar{
     background-color: $backgroundNav;
+    
         .navbar-brand{
             font-size: 80px;
             color: $colorHeader !important;
@@ -8,6 +9,7 @@
             .navbar-nav a{
             font-size: 25px;
             color: $colorHeader !important;
+
                 &:hover{
                     color: white !important;
             }
