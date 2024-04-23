@@ -28,7 +28,11 @@
     .main-contactanos{
         height: 170vh;
         .contactanos-div{
-            text-align: center;
+            text-align: center !important; 
+            .boton-enviar{
+                width: 100%;
+                text-align: center;
+            }
         }
     }
 }
@@ -103,7 +107,7 @@
 
 @media only screen and (max-width: 596px) {
     .main-contactanos{
-        height: 150vh;
+        height: 160vh;
         #nombre{
             width: 49% !important;
         }
@@ -126,19 +130,22 @@
 }
 
 @media only screen and (max-width: 531px) {
-.main-contactanos{
-    .numero1{
+    .navbar-brand {
+        font-size: 40px !important;
+    }
+    .main-contactanos{
+        .numero1{
         width: 15% !important;
-    }
-    .numero2{
+        }
+        .numero2{
         width: 80% !important;
-    }
+        }
 }
 }
 
 @media only screen and (max-width: 500px) {
     .div-main {
-        height: 1500px;
+        height: 1500px !important;
     }
 }
 
