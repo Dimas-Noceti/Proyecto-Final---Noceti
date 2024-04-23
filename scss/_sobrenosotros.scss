@@ -1,20 +1,22 @@
 .main-nosotros{
-    background-color: beige;
+    background-image: url(../multimedia/beige\ fondo.jpg);
+    background-position: center;
+    background-size: cover;
     
     .cards-nosotros{
         border: 1px black solid;
         background-color: $backgroundNav;
         margin: 10px;
+        border-radius: 20px;
 
+        .boton{
+            background-color: $colorHeader !important;
+            border: none;
+            color: beige;
 
-        /* No lograba poner el    boton en el fondo de la card, por eso recurri a este metodo */
-        .boton{                                 
-            position: relative;
-            top: 23px;
-        }
-        .botonL{
-            position: relative;
-            top: 47px;
+            &:link{
+                box-shadow: none !important;
+            }
         }
     }
 }

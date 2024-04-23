@@ -90,11 +90,12 @@ footer .redes a {
 }
 
 .main-recetas {
-  background-color: beige;
+  background-image: url(../multimedia/beige\ fondo.jpg);
   height: 170vh;
 }
 .main-recetas .section-recetas {
   min-height: 500px;
+  background-color: transparent;
 }
 .main-recetas .section-recetas .galeria-recetas {
   display: grid;
@@ -130,31 +131,33 @@ footer .redes a {
 }
 
 .main-novedades {
-  background-color: beige;
+  background-image: url(../multimedia/beige\ fondo.jpg);
   height: 1400px;
 }
 
 .main-nosotros {
-  background-color: beige;
+  background-image: url(../multimedia/beige\ fondo.jpg);
+  background-position: center;
+  background-size: cover;
 }
 .main-nosotros .cards-nosotros {
   border: 1px black solid;
   background-color: rgb(190, 229, 191);
   margin: 10px;
-  /* No lograba poner el    boton en el fondo de la card, por eso recurri a este metodo */
+  border-radius: 20px;
 }
 .main-nosotros .cards-nosotros .boton {
-  position: relative;
-  top: 23px;
+  background-color: rgb(63, 91, 59) !important;
+  border: none;
+  color: beige;
 }
-.main-nosotros .cards-nosotros .botonL {
-  position: relative;
-  top: 47px;
+.main-nosotros .cards-nosotros .boton:link {
+  box-shadow: none !important;
 }
 
 .main-contactanos {
   height: 150vh;
-  background-color: beige;
+  background-image: url(../multimedia/beige\ fondo.jpg);
 }
 .main-contactanos .correo {
   width: 484px;

@@ -1,9 +1,10 @@
 .main-recetas{
-    background-color: $backgroundMains;
+    background-image: $backgroundMains;
     height: 170vh;
 
     .section-recetas{
         min-height: 500px;
+        background-color: transparent;
 
         .galeria-recetas{
             display: grid;
