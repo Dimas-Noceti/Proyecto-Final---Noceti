@@ -139,7 +139,17 @@ footer .redes a {
 }
 .main-nosotros .cards-nosotros {
   border: 1px black solid;
-  background-color: transparent !important;
+  background-color: rgb(190, 229, 191);
+  margin: 10px;
+  /* No lograba poner el    boton en el fondo de la card, por eso recurri a este metodo */
+}
+.main-nosotros .cards-nosotros .boton {
+  position: relative;
+  top: 23px;
+}
+.main-nosotros .cards-nosotros .botonL {
+  position: relative;
+  top: 47px;
 }
 
 .main-contactanos {
