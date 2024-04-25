@@ -1,19 +1,10 @@
 @media only screen and (max-width: 1579px) {
     .main-recetas {
         height: 300vh;
-
-        .section-recetas {
-            text-align: center;
-
-            .recetas-pais {
-                width: 100%;
-            }
-
             .galeria-recetas {
                 margin: 0 auto;
                 grid-template-columns: repeat(2, 370px);
                 grid-template-rows: repeat(3, 250px);
-            }
         }
     }
 }
@@ -51,7 +42,22 @@
     }
 
     .section-recetas {
-        font-size: 15px;
+        font-size: 20px;
+
+        .galeria-recetas{
+            width: 100%;
+        }
+        
+        .form-paises{
+            height: 440px;
+            width: 100%;
+            align-items: center;
+            flex-flow: column wrap;
+
+            .paises{
+                width: 200px;
+            }
+        }
     }
 }
 
@@ -66,8 +72,8 @@
         height: 380vh;
 
         .galeria-recetas {
-            margin: 0 auto;
-            grid-template-columns: 320px !important;
+            justify-content: center;
+            grid-template-columns: repeat(1, 1fr) !important;
             grid-template-rows: 300px 300px 300px 300px 300px !important;
         }
     }
@@ -130,6 +136,11 @@
 }
 
 @media only screen and (max-width: 531px) {
+    .form-paises{
+        flex-wrap: nowrap !important;
+        height: 700px !important;
+    }
+
     .navbar-brand {
         font-size: 40px !important;
     }
@@ -148,4 +159,5 @@
         height: 1500px !important;
     }
 }
+
 

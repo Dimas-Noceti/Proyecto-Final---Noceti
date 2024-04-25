@@ -6,9 +6,14 @@
         min-height: 500px;
         background-color: transparent;
 
+        .form-paises{
+            display: flex;
+            flex-direction: column;
+        }
+
         .galeria-recetas{
             display: grid;
-            grid-template-columns: repeat(3, 275px);
+            grid-template-columns: repeat(3, 1fr);
             grid-template-rows: 300px 300px;
 
             .item{
