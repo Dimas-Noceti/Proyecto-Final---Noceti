@@ -189,12 +189,12 @@ footer .redes a {
   letter-spacing: 20px;
 }
 
-.map {
-  position: relative;
-  left: 25%;
+.div-mapa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
-#pindelmapa {
+.div-mapa #pindelmapa {
   font-size: 90px;
   color: rgb(63, 91, 59);
 }
@@ -267,6 +267,11 @@ footer .redes a {
     grid-template-rows: 300px 300px 300px 300px 300px !important;
   }
 }
+@media only screen and (max-width: 858px) {
+  .main-contactanos {
+    height: 190vh;
+  }
+}
 @media only screen and (max-width: 768px) {
   .titulorecetas {
     padding-top: 20px !important;
@@ -294,9 +299,6 @@ footer .redes a {
   }
 }
 @media only screen and (max-width: 596px) {
-  .main-contactanos {
-    height: 160vh;
-  }
   .main-contactanos #nombre {
     width: 49% !important;
   }
@@ -330,10 +332,15 @@ footer .redes a {
   .main-contactanos .numero2 {
     width: 80% !important;
   }
+  .map {
+    height: 300px;
+    width: 70%;
+  }
 }
-@media only screen and (max-width: 500px) {
-  .div-main {
-    height: 1500px !important;
+@media only screen and (max-width: 436px) {
+  #busqueda-recetas {
+    font-size: 16px;
+    padding: 10px;
   }
 }
 

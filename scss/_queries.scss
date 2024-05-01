@@ -79,6 +79,12 @@
     }
 }
 
+@media only screen and (max-width: 858px){
+    .main-contactanos{
+        height: 190vh;
+    }
+}
+
 @media only screen and (max-width: 768px) {
     .titulorecetas {
         padding-top: 20px !important;
@@ -113,7 +119,6 @@
 
 @media only screen and (max-width: 596px) {
     .main-contactanos{
-        height: 160vh;
         #nombre{
             width: 49% !important;
         }
@@ -151,13 +156,17 @@
         .numero2{
         width: 80% !important;
         }
-}
-}
-
-@media only screen and (max-width: 500px) {
-    .div-main {
-        height: 1500px !important;
+    }
+    .map{
+        height: 300px;
+        width: 70%;
     }
 }
 
 
+@media only screen and (max-width: 436px){
+    #busqueda-recetas{
+        font-size: 16px;
+        padding: 10px;
+    }
+}
