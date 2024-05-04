@@ -90,7 +90,7 @@ footer .redes a {
 }
 
 .main-recetas {
-  background-image: url(../multimedia/beige\ fondo.jpg);
+  background-image: url(../multimedia/beige-fondo.jpg);
   height: 170vh;
 }
 .main-recetas .section-recetas {
@@ -135,7 +135,7 @@ footer .redes a {
 }
 
 .main-novedades {
-  background-image: url(../multimedia/beige\ fondo.jpg);
+  background-image: url(../multimedia/beige-fondo.jpg);
   height: 1400px;
 }
 
@@ -161,7 +161,7 @@ footer .redes a {
 
 .main-contactanos {
   height: 150vh;
-  background-image: url(../multimedia/beige\ fondo.jpg);
+  background-image: url(../multimedia/beige-fondo.jpg);
 }
 .main-contactanos .correo {
   width: 484px;
